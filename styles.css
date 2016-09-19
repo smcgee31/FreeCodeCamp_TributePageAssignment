@@ -11,6 +11,7 @@ body {
 	margin:0;
 	padding:0;
 	height:100%;
+	font: 16px/20px Verdana, sans-serif;
 }
 #mainWrapper {
 	min-height:100%;
@@ -23,10 +24,12 @@ body {
 .header_area {
 	width: 80%;
 	margin: 0 auto;
+	padding: 40px;
 }
 .header_title {
 	text-align: center;
-	font-size: 36px;
+	font-size: 2.5em;
+	line-height: 2.5em;
 	color: white;
 }
 #contentWrapper {
@@ -39,9 +42,32 @@ body {
 }
 .hero_container {
 	background: #f1f1f1 url(https://s3.amazonaws.com/devmountain/www/img/learn_live_build_give.png) no-repeat;
-  background-position: -100px center;
+  background-position: 0px center;
   background-size: auto 100%;
   padding: 80px 0;
+}
+.hero_container hr {
+	width: 50%;
+	border-color: #ddd;
+}
+hr {
+	margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.hero_title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+.hero_motto {
+	color: #30ABDF;
+	font-size: 24px;
+	text-align: center;
+}
+.hero_paragraph {
+
 }
 #footerWrapper {
 	background-color: #30ABDF;
